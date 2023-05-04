@@ -8,6 +8,7 @@
   display: grid;
   grid-template-columns: 1fr 4fr;
   gap: 4px;
+  grid-template-rows: repeat()
 }
 
 .container div {
@@ -33,6 +34,7 @@
 
 .menu ul {
   display: grid;
+  grid-template-columns: repeat(4, 1fr);
 }
 
 .sidebar {
