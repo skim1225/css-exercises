@@ -15,11 +15,14 @@
   color: white;
   display: grid;
   grid-template-columns: 1fr 4fr;
-  gap: 15px;
+  gap: 4px;
 }
 
 .header {
   background-color: #393f4d;
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+
 }
 
 .menu ul,
