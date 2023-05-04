@@ -13,6 +13,9 @@
   font-family: Helvetica;
   font-weight: bold;
   color: white;
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  gap: 15px;
 }
 
 .header {
